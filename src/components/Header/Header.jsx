@@ -48,7 +48,7 @@ const Header = () => {
 
   return (
     <>
-      <div className=" mx-auto bg-[#f7f2f8]">
+      <div className="fixed mx-auto w-full bg-[#f7f2f8]">
         <div className="container mx-auto">
           <div className="flex items-center justify-start px-10 py-7 navbar">
             <div className="items-center w-1/3 md:w-1/4 xl:w-1/3 text-start logo">
