@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+/* @layer base{
     body{
-        max-width: 840px;
+        max-width: 1680px;
         margin: auto;
     }
-}
+} */

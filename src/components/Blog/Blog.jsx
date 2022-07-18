@@ -5,15 +5,15 @@ import blogComp from "../../utilities/images/blog.js";
 const Blog = () => {
   const blog = (
     <div className="flex flex-col items-center justify-center">
-      <div className="px-14">
-        <h2 className="mb-8 text-3xl font-bold ">Lorem ipsum dolor sit.</h2>
-        <p className="mb-12 text-sm font-normal ">
+      <div className="w-3/4 mx-auto">
+        <h2 className="mb-8 text-3xl font-bold lg:text-4xl xl:text-6xl ">Lorem ipsum dolor sit.</h2>
+        <p className="mb-12 text-sm font-normal lg:text-lg xl:text-2xl ">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
           inventore blanditiis facilis consequatur!
         </p>
         <Link
           to="/"
-          className="text-sm font-bold text-pink-500 underline capitalize decoration-1"
+          className="text-sm font-bold text-pink-500 underline capitalize lg:text-lg xl:text-2xl decoration-1"
         >
           read more
         </Link>
