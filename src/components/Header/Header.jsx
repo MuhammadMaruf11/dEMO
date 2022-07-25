@@ -9,7 +9,7 @@ const Header = () => {
   let menuMask;
   if (menuBtn) {
     mobileMenu = (
-      <div class="w-full">
+      <div className="w-full">
         <div className="navLink">
           <div className="block">
             <ul>
@@ -37,10 +37,10 @@ const Header = () => {
 
     menuMask = (
       <div onClick={() => setMenuBtn(false)}>
-        {/* <button class="btnClose">
-                  <span class="bar1"></span>
-                  <span class="bar2"></span>
-                  <span class="bar3"></span>
+        {/* <button className="btnClose">
+                  <span className="bar1"></span>
+                  <span className="bar2"></span>
+                  <span className="bar3"></span>
               </button> */}
       </div>
     );
@@ -86,11 +86,11 @@ const Header = () => {
             <div className="order-3 inline-block cursor-pointer lg:hidden">
               <button
                 onClick={() => setMenuBtn(!menuBtn)}
-                class="flex p-1 flex-col justify-center items-center border border-gray-400"
+                className="flex flex-col items-center justify-center p-1 border border-gray-400"
               >
-                <span class="line h-0.5 w-5 my-0.5 bg-black"></span>
-                <span class="line h-0.5 w-5 my-0.5 bg-black"></span>
-                <span class="line h-0.5 w-5 my-0.5 bg-black"></span>
+                <span className="line h-0.5 w-5 my-0.5 bg-black"></span>
+                <span className="line h-0.5 w-5 my-0.5 bg-black"></span>
+                <span className="line h-0.5 w-5 my-0.5 bg-black"></span>
               </button>
             </div>
           </div>

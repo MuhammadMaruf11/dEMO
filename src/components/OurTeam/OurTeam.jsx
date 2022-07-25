@@ -24,7 +24,7 @@ const OurTeam = () => {
   const lorem6 = (
     <div>
       <span className="flex text-sm font-semibold 2xl:text-2xl xl:text-xl lg:text-lg">
-        <i class="fa-solid fa-circle-check text-purple-800 mr-2 mt-1.5"></i>
+        <i className="fa-solid fa-circle-check text-purple-800 mr-2 mt-1.5"></i>
         Lorem ipsum dolor sit amet consectetur.
       </span>
     </div>
@@ -33,7 +33,7 @@ const OurTeam = () => {
   const lorem8 = (
     <div>
       <span className="flex text-sm font-semibold 2xl:text-2xl xl:text-xl lg:text-lg">
-        <i class="fa-solid fa-circle-check text-purple-800 mr-2 mt-1.5"></i>
+        <i className="fa-solid fa-circle-check text-purple-800 mr-2 mt-1.5"></i>
         Lorem ipsum dolor sit amet consectetur. amet consectetur
       </span>
     </div>

@@ -30,7 +30,7 @@ const Footer = () => {
               </li>
               <li className="inline-block mx-2 text-white xl:text-xl 2xl:text-2xl lg:text-lg">
                 <Link to="/">
-                  <i class="fa-solid fa-m"></i>
+                  <i className="fa-solid fa-m"></i>
                 </Link>
               </li>
             </ul>
